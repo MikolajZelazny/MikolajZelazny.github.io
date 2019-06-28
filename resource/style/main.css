@@ -2,33 +2,50 @@ body {
     background-color: lightgray
 }
 
+div {
+  text-align: center;
+}
+
 #grey_strap {
     background-color: gray;
     width: 100%;
-    margin-top: 7%;
+    margin-top: 8%;
     height: 230px;
     border-radius: 15px;
 }
 
-div {
-    text-align: center;
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(2.5em + 0.1vw);
+  margin: 2%;
 }
-
-.row {
-    display: flex;
-}
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
 
 
 .footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: gray;
+  min-height: 7%;
+  
+
+}
+
+
+
+
+
+/* .footer {
   position:fixed;
   left: 0;
   bottom: 0;
@@ -36,13 +53,5 @@ p {
   background-color:gray ;
   color: darkslategray;
   text-align: center;
-  height: 50px
-}
-
-#rcorners1 {
-  border-radius: 25px;
-  padding: 20px; 
-  width: 200px;
-  height: 150px; 
-}
-
+  height: 7%;
+} */
