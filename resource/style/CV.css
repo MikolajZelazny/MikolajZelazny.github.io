@@ -23,6 +23,7 @@ img {
 
 div {
     margin-left: 10%;
+
 }
 
 #okomoko {
@@ -35,5 +36,13 @@ p {
 }
 
 
-table {
-}
+table, tr, td {
+    border: 1px outset
+  }
+
+  table {
+      width: 50%;
+  }
+
+
+
