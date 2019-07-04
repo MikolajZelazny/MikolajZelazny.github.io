@@ -1,0 +1,39 @@
+body {
+    border-style: solid;
+}
+
+#header {
+    text-align: center 
+}
+
+img {
+    height: 200px;
+    align: left;
+    margin-right: 20%
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border-style: solid;
+}
+
+div {
+    margin-left: 10%;
+}
+
+#okomoko {
+    margin-top: 10%
+}
+
+
+p {
+    display: inline-block
+}
+
+
+table {
+}
