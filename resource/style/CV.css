@@ -36,13 +36,14 @@ p {
 }
 
 
-table, tr, td {
-    border: 1px outset
-  }
+
 
   table {
       width: 50%;
   }
 
+  tr:nth-child(even) {background-color: #f2f2f2;}
 
-
+ #table2 {
+     margin-top: 4%
+ }
