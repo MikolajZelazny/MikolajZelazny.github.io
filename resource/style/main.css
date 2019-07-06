@@ -2,33 +2,67 @@ body {
     background-color: lightgray
 }
 
-#grey_strap {
-    background-color: gray;
-    width: 100%;
-    margin-top: 7%;
-    height: 230px;
-    border-radius: 15px;
+#contact_me {
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#contact_img {
+  height: 20px;
+  margin-top: 22%
 }
 
 div {
-    text-align: center;
+  text-align: center;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif
+img {
+  max-width: 100%;
+  margin-bottom: 4%;
+  }
+
+#grey_strap {
+    background-color: gray;
+    width: 100%;
+    margin-top: 10vmax;
+    height: 220px;
+    border-radius: 15px;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(2.5em + 0.1vw);
+  margin: 2%;
+}
 
 
 .footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: gray;
+  min-height: 7%;
+  
+
+}
+
+
+
+
+
+/* .footer {
   position:fixed;
   left: 0;
   bottom: 0;
@@ -36,13 +70,5 @@ p {
   background-color:gray ;
   color: darkslategray;
   text-align: center;
-  height: 50px
-}
-
-#rcorners1 {
-  border-radius: 25px;
-  padding: 20px; 
-  width: 200px;
-  height: 150px; 
-}
-
+  height: 7%;
+} */
